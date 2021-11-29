@@ -5,10 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "WrappingHStack",
-    platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15)
-    ],
+    platforms: [],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
